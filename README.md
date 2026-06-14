@@ -173,19 +173,11 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-Add screenshot here:
-
-```text
-screenshots/home.png
-```
+homepage[screenshots/home.png]
 
 ### Conversion Result
 
-Add screenshot here:
-
-```text
-screenshots/result.png
-```
+result[screenshots/result.png]
 
 ---
 
