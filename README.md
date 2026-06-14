@@ -1,4 +1,4 @@
-# 📝 MarkdownStudio
+# 📝 AI Markdown Studio
 
 <div align="center">
 
@@ -173,11 +173,11 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-homepage[screenshots/home.png]
+![homepage](screenshots/home.png)
 
 ### Conversion Result
 
-result[screenshots/result.png]
+![result](screenshots/result.png)
 
 ---
 
