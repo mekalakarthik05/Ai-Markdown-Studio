@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">📝 MD → HTML</div>
+</nav>
+
+<section class="hero">
+    <div class="glass-card">
+
+        <h1>Conversion Successful ✅</h1>
+        <p class="subtitle">Preview your converted HTML below</p>
+
+        <div class="output-box">
+            {{ html | safe }}
+        </div>
+
+        <div class="actions">
+            <a href="/download/{{ filename }}">
+                <button class="primary-btn success">
+                    ⬇ Download HTML
+                </button>
+            </a>
+
+            <a href="/">
+                <button class="secondary-btn">
+                    🔄 Convert Another
+                </button>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
